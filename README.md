@@ -1,6 +1,6 @@
 
 
-# ACF config by livery - for X-Plane
+## ACF config by livery - for X-Plane
 
 You're looking for a method to configure your aircraft livery-specific and your add-on does 
 not support it yet ?
@@ -12,7 +12,7 @@ and will set the DataRefs defined inside.
 
  
 
-# Check out these little videos:
+### Check out these little videos:
 
  
 https://youtu.be/e0llP-wvPf0
@@ -22,20 +22,20 @@ https://youtu.be/sleAZRyyeT8
 
  
 
-# The syntax of the ini-file is pretty simple:
+### The syntax of the ini-file is pretty simple:
 
 Lines starting with a "#"  are ignored and can be used for comments
 
 Lines containing a "," are interpreted as   "Dataref","Value"
 
 
-# Requirements:
+### Requirements:
 
 FlyWithLua and an aircraft which can be configured by DataRefs
 
  
 
-# Installation:
+### Installation:
 
 Put the acfconfig.lua script into the Scripts folder and restart FlyWithLua
 
@@ -48,13 +48,13 @@ Works with XP11 and XP12
 
  
 
-# De-Installation:
+### De-Installation:
 
 Delete the acfconfig.lua script from your FlyWithLua/Scripts folder and restart FlyWIthLua
 
  
 
-# Notes:
+### Notes:
 
 The current "Windows" version of FlyWithLua has some problems dealing with DataRefs of 
 type "Data". So the above script might not work properly for you.
