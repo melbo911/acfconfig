@@ -1,0 +1,68 @@
+#
+# Cowansim Bell B206B3
+#
+
+# 1=show
+206B3/acc/cutters,0
+
+# 0=show
+206B3/acc/floats,1
+#206B3/acc/floats_active
+#206B3/acc/floats_blown
+
+# 1=show
+206B3/acc/mirror,0
+
+# 0=garmin 530 , 1=radios
+206B3/acc/radio_stack,1
+
+# 1=show
+206B3/acc/steps,0
+
+# 0=dual
+206B3/acc/uno_ctrls,0
+
+# 0=show
+206B3/ceneflex/kill,1
+
+# 0=show
+206B3/copilot/kill,1
+206B3/pass/kill,1
+206B3/pilot/kill,0
+
+# 0=low
+206B3/gearswap,0
+
+# 0=show
+206B3/headset/left,0
+206B3/headset/right,0
+
+# 1=headset, 0=helmet
+206B3/helmetswap,0
+
+# right window 1=open
+#206B3/open_window_0
+
+# 0=pulled
+#206B3/left/vent
+#206B3/right/vent
+
+# 0=show
+206B3/hide/avitab,1
+#206B3/rotate/avitab
+
+# 0=show
+#206B3/r_door_0
+#206B3/r_door_1
+#206B3/r_door_2
+#206B3/r_door_3
+
+# 1=show
+206B3/sling_gear,0
+
+# 0=show
+206B3/spot/lt,1
+
+# 0=show
+206B3/spray/kit,1
+
