@@ -1,0 +1,55 @@
+#
+# jrxDR BO105
+#
+
+# 2=show autopilot
+jrxDR/105/menu/binder/toggle_ap,2
+
+# 2=show avitab
+jrxDR/105/menu/binder/toggle_avitab,0
+
+# 2=show binder
+jrxDR/105/menu/binder/toggle_binder,0
+
+# 2=internal cargo load
+jrxDR/105/menu/binder/toggle_cargo,0
+
+# 2=show cargo hook
+jrxDR/105/menu/binder/toggle_cargo_hook,0
+
+# 2=fly with copilot
+jrxDR/105/menu/binder/toggle_copilot,0
+
+# 2=remove front doors
+jrxDR/105/menu/binder/toggle_doors,0
+
+# 1=dual
+jrxDR/105/menu/binder/toggle_dual_control,1
+
+# 2=show
+jrxDR/105/menu/binder/toggle_emer_floats,0
+#jrxDR/105/menu/binder/toggle_emer_floats_inflated
+
+# 1=empty space , 2=ems equipment
+jrxDR/105/menu/binder/toggle_ems,1
+# 2=show casualty
+jrxDR/105/menu/binder/toggle_ems_cas,0
+
+# 2=show
+jrxDR/105/menu/binder/toggle_epu,0
+
+# 2= show GNT
+jrxDR/105/menu/binder/toggle_gtn,0
+
+# 2=show HOT rockets
+jrxDR/105/menu/binder/toggle_hot,0
+
+# 2=remove before flight
+#jrxDR/105/menu/binder/toggle_rbf
+
+# 1=show
+jrxDR/105/menu/binder/toggle_search_l,0
+
+# 1=show
+jrxDR/105/menu/binder/toggle_step,0
+
