@@ -1,0 +1,48 @@
+#
+# Pegasus Norway config
+#
+
+# mirror   0=show
+AS350/acc/mirror,1
+
+# vertical window 0=show
+AS350/vert_window,0
+
+# floor 0=rubber
+AS350/floorswap,0
+
+# back 1=clear
+AS350/removeallback,1
+
+# ceneflex 0=show
+AS350/ceneflex/kill,1
+
+# floats 0=show
+AS350/acc/floats,1
+
+# skid steps 1=short    0=long
+AS350/acc/steps=1
+
+# side basket 0=show
+AS350/basket,1
+AS350/bucket_in_basket,1
+
+# sling gear / Hook 0=show
+AS350/sling_gear,0
+
+# Bear Paws 0=show
+AS350/bearpaws,1
+
+# dual controls 0=show
+AS350/acc/uno_ctrls,1
+
+# cutters 1=show
+AS350/acc/cutters,1
+
+# searchlight 0=show
+AS350/spot/lt,1
+
+# people
+AS350/pilot/kill,0
+AS350/copilot/kill,0
+AS350/pass_1/kill,1
