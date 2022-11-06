@@ -91,7 +91,7 @@ De-Installation:
  
 Usage:
 
-	The acfconfig.lua script checks every second if the livery has been changed. If it has been 
+    The acfconfig.lua script checks every second if the livery has been changed. If it has been 
     changed, it looks for a acfconfig.ini file inside the livery folder. If it finds such a file 
     it loads the dataref names and values from it and tries to configure the acf accordingly. 
     Datarefs from the ini file which do not exist are ignored.
