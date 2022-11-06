@@ -39,5 +39,5 @@ end
 
 do_often("loadAcfConfig()")
 
-create_command("FlyWithLua/loadAcfConfig", "load acf config", "loadAcfConfig()", "", "")
+create_command("FlyWithLua/loadAcfConfig", "load acf config", "acfconfig_livery=''", "", "")
 
