@@ -15,18 +15,18 @@ and will set the DataRefs defined inside.
 # Check out these little videos:
 
  
-	https://youtu.be/e0llP-wvPf0
+https://youtu.be/e0llP-wvPf0
 
 
-	https://youtu.be/sleAZRyyeT8
+https://youtu.be/sleAZRyyeT8
 
  
 
 # The syntax of the ini-file is pretty simple:
 
-   Lines starting with a "#"  are ignored and can be used for comments
+ Lines starting with a "#"  are ignored and can be used for comments
 
-   Lines containing a "," are interpreted as   "Dataref","Value"
+ Lines containing a "," are interpreted as   "Dataref","Value"
 
 
 # Requirements:
