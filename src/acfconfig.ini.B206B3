@@ -51,6 +51,9 @@
 206B3/hide/avitab,1
 #206B3/rotate/avitab
 
+# 1=show tie downs
+206B3/rotors_stow/func,0
+
 # 0=show
 #206B3/r_door_0
 #206B3/r_door_1
