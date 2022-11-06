@@ -100,6 +100,7 @@ Usage:
     has been created, which can be mapped to the keyboard or joystick, in order to force a reload
     of the configuration without changing the livery.
 
+
 Notes:
 
     The current "Windows" version of FlyWithLua has some problems dealing with DataRefs of 
