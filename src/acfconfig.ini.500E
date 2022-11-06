@@ -1,0 +1,65 @@
+#
+# Cowansim 500E
+#
+
+# 1=show
+500E/acc/cutters,1
+
+# 0=show
+500E/acc/floats,1
+
+# 1=show
+500E/acc/mirror,1
+
+# 1=single controls
+500E/acc/uno_ctrls,0
+
+# 0=show
+500E/ceneflex/kill,1
+#500E/ceneflex/lr
+#500E/ceneflex/ud
+
+# 0=show
+500E/pass/kill,1
+500E/copilot/kill,1
+500E/pilot/kill,0
+
+# 0=show
+500E/fire/exting1,0
+500E/fire/exting2,0
+
+# 0=show
+#500E/headset/left
+#500E/headset/right
+
+# 0=show
+500E/hide/avitab,1
+500E/rotate/avitab,0
+
+# 0=show
+500E/left/shade,1
+500E/right/shade,1
+
+# 0=remove ties
+500E/rotors_stow/func,0
+
+# 1=remove door
+500E/r_door_0,1
+500E/r_door_1,1
+500E/r_door_2,1
+500E/r_door_3,1
+
+# 1=show gear
+500E/sling_gear,1
+# 0=show
+500E/acc/cargo,1
+
+# 0=show
+500E/spot/lt,1
+
+# 0=show
+500E/spray/kit,1
+
+# 0=show - side bench and worker
+500E/utility/bench,0
+500E/utility/worker,0
