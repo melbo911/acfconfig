@@ -42,9 +42,9 @@ Put the acfconfig.lua script into the Scripts folder and restart FlyWithLua
 Put a "acfconfig.ini" into the livery folder and use it to set the desired datarefs 
 for your aircraft
 
-In the ZIP file you also can find 2 example config files
+In the ZIP file you will also find example config files
 
-Works with XP11 and XP12
+acfconfig works with XP11 and XP12
 
  
 
