@@ -5,7 +5,7 @@
 # 0=slow red, 1=white, 2=red, 3=off 
 SA315b/electrical/PhilipUbben_addons_strobe,0
 
-# 0=red , 1=green  NO GO
+# 0=red , 1=green
 SA315b/electrical/PhilipUbben_gauge_color,1
 
 # 1=show
@@ -15,9 +15,6 @@ SA315b/weight/PhilipUbben_baskets_load,50
 # 0=heavy 1=light
 SA315b/custom/PhilipUbben_baskets_type,1
 
-#  NO panniers A + B
-
-# only sound
 #SA315b/custom/PhilipUbben_headset_on
 
 SA315b/custom/PhilipUbben_altimeter_inHg,0
