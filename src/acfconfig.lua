@@ -1,11 +1,8 @@
-
-function split(s, delimiter)
-    result = {};
-    for match in (s..delimiter):gmatch("(.-)"..delimiter) do
-        table.insert(result, match);
-    end
-    return result;
-end
+--
+-- aircraft config by livery
+--
+-- melbo @x-plane.org - 221106
+--
 
 acfconfig_livery = ""
 
@@ -22,7 +19,9 @@ function loadAcfConfig()
       print("%%% loading livery config")
       for line in infile:lines() do
         if ( not line:match('^#') and line:match(',') ) then   -- skip comment lines
-          cmd = split(line,",")	  
+          for match in (line..","):gmatch("(.-)"..",") do
+              table.insert(cmd, match);
+          end
           if ( XPLMFindDataRef(cmd[1]) ~= nil )then    	     -- dataref does not exist
             set(cmd[1],cmd[2])
           else
@@ -39,5 +38,5 @@ end
 
 do_often("loadAcfConfig()")
 
-create_command("FlyWithLua/loadAcfConfig", "load acf config", "acfconfig_livery=''", "", "")
+create_command("FlyWithLua/loadAcfConfig", "load acfconfig", "acfconfig_livery=''", "", "")
 

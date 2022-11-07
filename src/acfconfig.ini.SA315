@@ -1,0 +1,33 @@
+#
+# Lama SA315b V2.2
+#
+
+# 0=slow red, 1=white, 2=red, 3=off 
+SA315b/electrical/PhilipUbben_addons_strobe,0
+
+# 0=red , 1=green  NO GO
+SA315b/electrical/PhilipUbben_gauge_color,1
+
+# 1=show
+SA315b/weight/PhilipUbben_baskets_on_off,0
+# kg
+SA315b/weight/PhilipUbben_baskets_load,50
+# 0=heavy 1=light
+SA315b/custom/PhilipUbben_baskets_type,1
+
+#  NO panniers A + B
+
+# only sound
+#SA315b/custom/PhilipUbben_headset_on
+
+SA315b/custom/PhilipUbben_altimeter_inHg,0
+SA315b/custom/PhilipUbben_IAS_kph,1
+SA315b/custom/PhilipUbben_kill_instrument_reflections,1
+SA315b/custom/PhilipUbben_kill_canopy_reflections,1
+SA315b/custom/PhilipUbben_kill_mirror,1
+SA315b/custom/PhilipUbben_kill_pilot_door,0
+SA315b/custom/PhilipUbben_kill_copilot_door,0
+SA315b/custom/PhilipUbben_kill_bubble_door,1
+SA315b/custom/PhilipUbben_kill_search_light,1
+SA315b/custom/PhilipUbben_kill_winch,1
+SA315b/kill/PhilipUbben_patin,1
