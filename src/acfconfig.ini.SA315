@@ -3,10 +3,10 @@
 #
 
 # 0=slow red, 1=white, 2=red, 3=off 
-SA315b/electrical/PhilipUbben_addons_strobe,0
+SA315b/electrical/PhilipUbben_addons_strobe,1
 
 # 0=red , 1=green
-SA315b/electrical/PhilipUbben_gauge_color,1
+SA315b/electrical/PhilipUbben_gauge_color,0
 
 # 1=show
 SA315b/weight/PhilipUbben_baskets_on_off,0
@@ -15,10 +15,13 @@ SA315b/weight/PhilipUbben_baskets_load,50
 # 0=heavy 1=light
 SA315b/custom/PhilipUbben_baskets_type,1
 
-#SA315b/custom/PhilipUbben_headset_on
-
+# 0=hPA 1=inch
 SA315b/custom/PhilipUbben_altimeter_inHg,0
-SA315b/custom/PhilipUbben_IAS_kph,1
+
+# 0=knots 1=km/h
+SA315b/custom/PhilipUbben_IAS_kph,0
+
+# 0=show
 SA315b/custom/PhilipUbben_kill_instrument_reflections,1
 SA315b/custom/PhilipUbben_kill_canopy_reflections,1
 SA315b/custom/PhilipUbben_kill_mirror,1
