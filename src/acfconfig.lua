@@ -20,11 +20,11 @@ function loadAcfConfig()
         local cmd = {}
         if ( not line:match('^#') and line:match(',') ) then   -- skip comment lines
           for match in (line..','):gmatch("(.-)"..',') do
-              table.insert(cmd, match);
+            table.insert(cmd, match);
           end
           if ( XPLMFindDataRef(cmd[1]) ~= nil )then    	     -- dataref does not exist
-            set(cmd[1],cmd[2])
             --print("%%% set ["..cmd[1].."] = ["..cmd[2].."]")
+            set(cmd[1],cmd[2])
           else
             print("%%% invalid dataref in livery config")
           end
@@ -37,7 +37,7 @@ function loadAcfConfig()
   end
 end
 
-do_often("loadAcfConfig()")
+do_often("loadAcfConfig()")   -- do every second
 
 create_command("FlyWithLua/loadAcfConfig", "load acfconfig", "acfconfig_livery=''", "", "")
 
