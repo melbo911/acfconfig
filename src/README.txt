@@ -2,8 +2,7 @@
 
 ACF config by livery
 
-You're looking for a method to configure your aircraft livery-specific and your add-on does 
-not support it yet ?
+You're looking for a method to configure your aircraft livery-specific and your add-on does not support it yet ?
 
 This LUA plugin might make you stop searching any further.
 
@@ -91,23 +90,20 @@ De-Installation:
  
 Usage:
 
-    The acfconfig.lua script checks every second if the livery has been changed. If it has been 
-    changed, it looks for a acfconfig.ini file inside the livery folder. If it finds such a file 
-    it loads the dataref names and values from it and tries to configure the acf accordingly. 
+    The acfconfig.lua script checks every second if the livery has been changed. If it has been changed, it looks for a acfconfig.ini file inside the livery folder. If it finds such a file it loads the dataref names and values from it and tries to configure the acf accordingly. 
     Datarefs from the ini file which do not exist are ignored.
 
-    In addition to the "automatic" load of the config, the command "FlyWithLua/loadAcfConfig"
-    has been created, which can be mapped to the keyboard or joystick, in order to force a reload
-    of the configuration without changing the livery.
+    In addition to the "automatic" load of the config, the command "FlyWithLua/loadAcfConfig" has been created, which can be mapped to the keyboard or joystick, in order to force a reload of the configuration without changing the livery.
 
 
 Notes:
 
-    The current "Windows" version of FlyWithLua has some problems dealing with DataRefs of 
-    type "Data". So the above script might not work properly for you.
+    FlyWithLua for "Windows" before version 2.7.35 has some problems dealing with DataRefs of type "Data". So the above script might not work properly for you.
 
-    Under the Download button you will also find a fixed FWL plugin. I have been working 
-    with @sparker on that and future versions of FlyWithLua might also contain that fix.
+    Go get the latest version here: 
+    https://forums.x-plane.org/index.php?/files/file/38445-flywithlua-ng-next-generation-edition-for-x-plane-11-win-lin-mac/
+
+
 
  
 
